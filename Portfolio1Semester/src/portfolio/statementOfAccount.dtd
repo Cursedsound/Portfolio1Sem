@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT statementOfAccount (startDate?, meal*, balance?, endDate?)>
+<!ELEMENT startDate (#PCDATA)>
+<!ELEMENT meal (purchaseDate+, totalPrice+, item+)>
+<!ELEMENT purchaseDate (#PCDATA)>
+<!ELEMENT totalPrice (#PCDATA)>
+<!ELEMENT item (name, price)*>
+<!ATTLIST totalPrice UNIT CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price UNIT CDATA #REQUIRED>
+<!ELEMENT balance (#PCDATA)>
+<!ATTLIST balance UNIT CDATA #REQUIRED>
+<!ELEMENT endDate (#PCDATA)>

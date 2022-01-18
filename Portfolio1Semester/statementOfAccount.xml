@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE statementOfAccount SYSTEM "statementOfAccount.dtd">
+<statementOfAccount>
+	<startDate>18.1.2022 10:47:11 Uhr</startDate>
+	<meal>
+		<purchaseDate>18.1.2022</purchaseDate>
+		<totalPrice UNIT="euro">7.0</totalPrice>
+		<item>
+			<name>Pizza</name>
+			<price UNIT="euro">5.0</price>
+		</item>
+		<item>
+			<name>Burger</name>
+			<price UNIT="euro">2.0</price>
+		</item>
+	</meal>
+	<meal>
+		<purchaseDate>18.1.2022</purchaseDate>
+		<totalPrice UNIT="euro">9.0</totalPrice>
+		<item>
+			<name>Salad</name>
+			<price UNIT="euro">4.0</price>
+		</item>
+		<item>
+			<name>Pasta</name>
+			<price UNIT="euro">5.0</price>
+		</item>
+	</meal>
+	<meal>
+		<purchaseDate>18.1.2022</purchaseDate>
+		<totalPrice UNIT="euro">-0.41</totalPrice>
+		<item>
+			<name>Banana</name>
+			<price UNIT="euro">0.2</price>
+		</item>
+		<item>
+			<name>Apple</name>
+			<price UNIT="euro">0.4</price>
+		</item>
+		<item>
+			<name>Salad</name>
+			<price UNIT="euro">4.0</price>
+		</item>
+		<item>
+			<name>Refund</name>
+			<price UNIT="euro">-5.0</price>
+		</item>
+	</meal>
+	<meal>
+		<purchaseDate>18.1.2022</purchaseDate>
+		<totalPrice UNIT="euro">0.0</totalPrice>
+		<item>
+			<name>Napkins</name>
+			<price UNIT="euro">0.0</price>
+		</item>
+	</meal>
+	<balance UNIT="euro">4.4</balance>
+	<endDate>18.1.2022 10:47:11 Uhr</endDate>
+</statementOfAccount>
